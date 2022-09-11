@@ -1,0 +1,18 @@
+import java.util.Scanner ;
+public class lab {
+    public static void main(String[] args) {
+        int x;
+        Scanner input = new Scanner(System.in) ;
+        System.out.println("Input The number : ");
+        x = input.nextInt();
+
+        if(x > 0 )
+            System.out.println("number is poisitve ");
+        else if ( x< 0)
+            System.out.println("number is negitive ") ;
+        else
+            System.out.println("number is zero ");
+
+
+    }
+}
